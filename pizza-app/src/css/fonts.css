@@ -1,0 +1,119 @@
+.name-company {
+    color: #F4511E;
+    font-family: "Fira Sans SemiBold", "Arial", sans-serif;
+    font-size: 14px;
+    width: 41px;
+    height: 17px;
+}
+
+.head-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    max-width: 1000px;
+    margin: 0 auto;
+ }
+
+ .logo-pizza {
+    margin-top: 15px;
+ }
+
+ .profile {
+     display: flex;
+     align-items: flex-start;
+     gap: 13px;
+ }
+
+ .profile-logo {
+    margin-top: 23px;
+    margin-left: 70px;
+ }
+
+ .profile-text {
+    font-family: "Inter", "Arial", sans-serif;
+    margin-top: 22px;
+ }
+
+ .time-logo {
+    margin-top: 19px;
+    margin-left: 55px;
+ }
+
+ .cart-logo {
+    margin-top: 18px;
+    margin-left: 350px;
+ }
+
+ .moon-img {
+    margin-top: 20px;
+    margin-left: 20px;
+ }
+
+ .horizontal-line {
+    color: #808080;
+ }
+
+ .pizzas {
+     display: flex;
+     justify-content: space-between;
+     gap: 20px;
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 20px;
+ }
+
+ .pizza-block {
+     flex: 1;
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+     padding: 20px;
+     position: relative;
+ }
+
+ .pizza-image {
+     width: 200px;
+     height: 200px;
+     margin-left: 70px;
+     margin-bottom: 15px;
+ }
+
+ .name-pizza {
+     margin-top: 10px;
+     margin: 0 0 5px 0;
+     font-family: "Inter", "Arial", sans-serif;
+     font-size: 22px;
+     min-height: 60px;
+ }
+
+ .description-pizza {
+     color: #344051;
+     font-family: "Inter", "Arial", sans-serif;
+     line-height: 1.4;
+     margin-top: -25px;
+     font-size: 18px;
+    
+     min-height: 80px;
+ }
+
+ .cost-pizza {
+     font-family: "Inter", "Arial", sans-serif;
+     font-size: 22px;
+     margin-top: 0px;
+ }
+
+ .rounded-box {
+     width: 320px;
+     height: 35px;
+     background-color: #F4511E;
+     border-radius: 17px;
+     padding: 10px;
+     color: white;
+     font-family: "Inter", "Arial", sans-serif;
+     cursor: pointer;
+     margin-top: 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+

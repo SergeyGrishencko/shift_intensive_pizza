@@ -1,0 +1,215 @@
+.name-company {
+  color: #F4511E;
+  font-family: "Fira Sans SemiBold", "Arial", sans-serif;
+  font-size: 14px;
+  width: 41px;
+  height: 17px;
+}
+
+.head-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo-pizza {
+  margin-top: 15px;
+}
+
+.profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+}
+
+.profile-logo {
+  margin-top: 23px;
+  margin-left: 70px;
+}
+
+.profile-text {
+  font-family: "Inter", "Arial", sans-serif;
+  margin-top: 22px;
+}
+
+.time-logo {
+  margin-top: 19px;
+  margin-left: 55px;
+}
+
+.cart-logo {
+  margin-top: 18px;
+  margin-left: 350px;
+}
+
+.moon-img {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.horizontal-line {
+  color: #808080;
+}
+
+.pizzas {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.pizza-block {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", "Arial", sans-serif;
+  align-items: left;
+  padding: 20px;
+  position: relative;
+}
+
+.name-pizza {
+  margin-top: 10px;
+  margin: 0 0 5px 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 22px;
+  min-height: 60px;
+}
+
+.description-pizza {
+  color: #344051;
+  font-family: "Inter", "Arial", sans-serif;
+  line-height: 1.4;
+  margin-top: -25px;
+  font-size: 18px;
+
+  min-height: 80px;
+}
+
+.cost-pizza {
+  font-family: "Inter", "Arial", sans-serif;
+  font-size: 22px;
+  margin-top: 0px;
+}
+
+.rounded-box {
+  width: 320px;
+  height: 35px;
+  background-color: #F4511E;
+  border-radius: 17px;
+  padding: 10px;
+  color: white;
+  font-family: "Inter", "Arial", sans-serif;
+  cursor: pointer;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+  /* Добавляем это для гарантии позиционирования */
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 700px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pizza-image {
+  display: block;
+  margin: 0 auto;
+  width: 65%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.pizza-details {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", "Arial", sans-serif;
+  gap: 0;
+  margin-top: 0;
+}
+
+.pizza-details p {
+  color: #808080;
+}
+
+.pizza-details p.supplements {
+  color: #333;
+}
+
+.pizza-details > * {
+  margin: 10px;
+}
+
+.size-selector {
+  display: flex;
+  background: #e0e0e0;
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.size-option {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #555;
+}
+
+.size-option.active {
+  background: white;
+  color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Опционально: стили для кнопки */
+button {
+  align-self: flex-start;
+  /* Кнопка слева */
+  padding: 10px 20px;
+  background: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content img {
+  flex-shrink: 0;
+  width: 200px;
+}
