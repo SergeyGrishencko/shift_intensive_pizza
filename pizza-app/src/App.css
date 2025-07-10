@@ -122,8 +122,6 @@
   justify-content: center;
   align-items: center;
   z-index: 1000;
-
-  /* Добавляем это для гарантии позиционирования */
   margin: 0;
   padding: 0;
   overflow: auto;
@@ -197,10 +195,8 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Опционально: стили для кнопки */
 button {
   align-self: flex-start;
-  /* Кнопка слева */
   padding: 10px 20px;
   background: #ff5722;
   color: white;

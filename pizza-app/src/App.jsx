@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
 import './App.css';
 
-// Импорты логотипов
 import pizzaLogo from './assets/logo-images/pizza_logo.png';
 import profileLogo from './assets/logo-images/profile.png';
 import timeLogo from './assets/logo-images/Time.png';
 import cartLogo from './assets/logo-images/Cart.png';
 import moonLogo from './assets/logo-images/Moon.png';
 
-// Импорты изображений пицц
 import pepperoniPizza from './assets/pizza-images/pepperoni.png';
 import cheezePizza from './assets/pizza-images/cheeze.png';
 import doubleChickenPizza from './assets/pizza-images/double-chicken.png';
 
-// Компонент модального окна
 const PizzaModal = ({ pizza, onClose }) => {
   return (
     <div className="modal-overlay">
@@ -36,7 +33,6 @@ const PizzaModal = ({ pizza, onClose }) => {
   );
 };
 
-// Компонент пиццы
 const PizzaBlock = ({ pizza }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -56,7 +52,6 @@ const PizzaBlock = ({ pizza }) => {
   );
 };
 
-// Основной компонент приложения
 const App = () => {
   const pizzas = [
     {
@@ -65,7 +60,7 @@ const App = () => {
       size: "30 см, традиционное тесто",
       description: "Пикантная пепперони, увеличенная порция моцареллы, фирменный томатный соус",
       price: "от 299 ₽",
-      image: pepperoniPizza // Используем импортированное изображение
+      image: pepperoniPizza 
     },
     {
       id: 2,
